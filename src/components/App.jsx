@@ -32,7 +32,7 @@ function App() {
     <div>
       <Section title="Please leave feedback">
         <FeedbackOptions
-          options={['Good', 'Neutral', 'Bad']}
+          options={['good', 'neutral', 'bad']}
           onLeaveFeedback={handleFeedback}
         />
       </Section>
